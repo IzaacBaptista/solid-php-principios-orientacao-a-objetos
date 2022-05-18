@@ -17,7 +17,6 @@ class Curso
 
     public function receberFeedback(Feedback $feedback): void
     {
-
         $this->feedbacks[] = $feedback;
     }
 
