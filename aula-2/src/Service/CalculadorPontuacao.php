@@ -2,8 +2,7 @@
 
 namespace Alura\Solid\Service;
 
-use Alura\Solid\Model\AluraMais;
-use Alura\Solid\Model\Curso;
+use ALura\Solid\Model\Pontuavel;
 
 class CalculadorPontuacao
 {
