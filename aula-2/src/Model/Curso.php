@@ -2,6 +2,8 @@
 
 namespace Alura\Solid\Model;
 
+use Alura\Solid\Model\Pontuavel;
+
 class Curso implements Pontuavel
 {
     private $nome;

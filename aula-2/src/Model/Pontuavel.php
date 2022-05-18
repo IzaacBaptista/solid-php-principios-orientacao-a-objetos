@@ -1,6 +1,6 @@
 <?php 
 
-namespace ALura\Solid\Model;
+namespace Alura\Solid\Model;
 
 interface Pontuavel
 {
