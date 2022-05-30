@@ -30,6 +30,6 @@ class Video
 
     public function recuperarUrl(): string
     {
-        return 'http://videos.alura.com.br/' . http_build_query(['nome' => $this->nome]);
+        return 'http://videos.alura.com.br/' . str_replace(' ', '-', strtolower($this->categoria)) . '/' . str_replace(' ', '-', strtolower($this->nome));
     }
 }
