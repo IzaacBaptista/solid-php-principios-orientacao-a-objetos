@@ -10,3 +10,4 @@ class Assistidor
     {
         $conteudo->assistir();
     }
+}
